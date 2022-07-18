@@ -2,7 +2,7 @@
   "name": "respirevida.inscricao.conferencia",
   "version": "1.0.0",
   "description": "Sistema de Inscrição para Conferências",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "swagger-autogen": "node swagger.js"

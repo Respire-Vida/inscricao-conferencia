@@ -1,7 +1,7 @@
 const swaggerAutogen = require('swagger-autogen')()
 
 const outputFile = './swagger_output.json'
-const endpointsFiles = ['./endpoints.js']
+const endpointsFiles = ['./src/endpoints.js']
 
 const doc = {
     info: {
@@ -65,5 +65,5 @@ const doc = {
 }
 
 swaggerAutogen(outputFile, endpointsFiles, doc).then(() => {
-    require('./index.js')
+    require('./src/index.js')
 })
