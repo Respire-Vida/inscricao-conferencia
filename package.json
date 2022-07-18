@@ -4,7 +4,8 @@
   "description": "Sistema de Inscrição para Conferências",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "swagger-autogen": "node swagger.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Respire-Vida/inscricao-conferencia/issues"
   },
-  "homepage": "https://github.com/Respire-Vida/inscricao-conferencia#readme"
+  "homepage": "https://github.com/Respire-Vida/inscricao-conferencia#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "swagger-autogen": "^2.21.3",
+    "swagger-ui-express": "^4.1.4"
+  }
 }
