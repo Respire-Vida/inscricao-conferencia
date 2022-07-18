@@ -1,0 +1,19 @@
+{
+  "name": "respirevida.inscricao.conferencia",
+  "version": "1.0.0",
+  "description": "Sistema de Inscrição para Conferências",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Respire-Vida/inscricao-conferencia.git"
+  },
+  "author": "Rafael de Paula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Respire-Vida/inscricao-conferencia/issues"
+  },
+  "homepage": "https://github.com/Respire-Vida/inscricao-conferencia#readme"
+}
